@@ -2,6 +2,7 @@ from tabulate import tabulate
 import json
 
 class DataFrame:
+
     def __init__(self, data={}):
         if DataFrame.is_valid(data):
             self.data = data
